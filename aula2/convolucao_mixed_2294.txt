@@ -1,0 +1,109 @@
+[Fri Aug 16 02:19:45 PM EDT 2024] Executando convolução com 1 CPU(s), 512 MB de memória e 30 iterações
+A tarefa levou 1.70391 segundos para ser executada
+[Fri Aug 16 02:19:48 PM EDT 2024] Convolução com 30 iterações (1 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:19:48 PM EDT 2024] Executando convolução com 1 CPU(s), 512 MB de memória e 50 iterações
+A tarefa levou 2.8611 segundos para ser executada
+[Fri Aug 16 02:19:52 PM EDT 2024] Convolução com 50 iterações (1 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:19:52 PM EDT 2024] Executando convolução com 1 CPU(s), 512 MB de memória e 100 iterações
+A tarefa levou 5.69056 segundos para ser executada
+[Fri Aug 16 02:19:59 PM EDT 2024] Convolução com 100 iterações (1 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:19:59 PM EDT 2024] Executando convolução com 1 CPU(s), 1024 MB de memória e 30 iterações
+A tarefa levou 1.69581 segundos para ser executada
+[Fri Aug 16 02:20:02 PM EDT 2024] Convolução com 30 iterações (1 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:20:02 PM EDT 2024] Executando convolução com 1 CPU(s), 1024 MB de memória e 50 iterações
+A tarefa levou 2.83135 segundos para ser executada
+[Fri Aug 16 02:20:07 PM EDT 2024] Convolução com 50 iterações (1 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:20:07 PM EDT 2024] Executando convolução com 1 CPU(s), 1024 MB de memória e 100 iterações
+A tarefa levou 5.70194 segundos para ser executada
+[Fri Aug 16 02:20:14 PM EDT 2024] Convolução com 100 iterações (1 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:20:14 PM EDT 2024] Executando convolução com 1 CPU(s), 2048 MB de memória e 30 iterações
+A tarefa levou 1.69852 segundos para ser executada
+[Fri Aug 16 02:20:17 PM EDT 2024] Convolução com 30 iterações (1 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:20:17 PM EDT 2024] Executando convolução com 1 CPU(s), 2048 MB de memória e 50 iterações
+A tarefa levou 2.84424 segundos para ser executada
+[Fri Aug 16 02:20:21 PM EDT 2024] Convolução com 50 iterações (1 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:20:21 PM EDT 2024] Executando convolução com 1 CPU(s), 2048 MB de memória e 100 iterações
+A tarefa levou 5.66584 segundos para ser executada
+[Fri Aug 16 02:20:28 PM EDT 2024] Convolução com 100 iterações (1 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:20:28 PM EDT 2024] Executando convolução com 2 CPU(s), 512 MB de memória e 30 iterações
+A tarefa levou 0.873616 segundos para ser executada
+[Fri Aug 16 02:20:31 PM EDT 2024] Convolução com 30 iterações (2 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:20:31 PM EDT 2024] Executando convolução com 2 CPU(s), 512 MB de memória e 50 iterações
+A tarefa levou 1.44413 segundos para ser executada
+[Fri Aug 16 02:20:34 PM EDT 2024] Convolução com 50 iterações (2 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:20:34 PM EDT 2024] Executando convolução com 2 CPU(s), 512 MB de memória e 100 iterações
+A tarefa levou 2.92428 segundos para ser executada
+[Fri Aug 16 02:20:38 PM EDT 2024] Convolução com 100 iterações (2 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:20:38 PM EDT 2024] Executando convolução com 2 CPU(s), 1024 MB de memória e 30 iterações
+A tarefa levou 0.877274 segundos para ser executada
+[Fri Aug 16 02:20:40 PM EDT 2024] Convolução com 30 iterações (2 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:20:40 PM EDT 2024] Executando convolução com 2 CPU(s), 1024 MB de memória e 50 iterações
+A tarefa levou 1.4589 segundos para ser executada
+[Fri Aug 16 02:20:43 PM EDT 2024] Convolução com 50 iterações (2 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:20:43 PM EDT 2024] Executando convolução com 2 CPU(s), 1024 MB de memória e 100 iterações
+A tarefa levou 2.93849 segundos para ser executada
+[Fri Aug 16 02:20:48 PM EDT 2024] Convolução com 100 iterações (2 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:20:48 PM EDT 2024] Executando convolução com 2 CPU(s), 2048 MB de memória e 30 iterações
+A tarefa levou 0.870179 segundos para ser executada
+[Fri Aug 16 02:20:50 PM EDT 2024] Convolução com 30 iterações (2 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:20:50 PM EDT 2024] Executando convolução com 2 CPU(s), 2048 MB de memória e 50 iterações
+A tarefa levou 1.47303 segundos para ser executada
+[Fri Aug 16 02:20:53 PM EDT 2024] Convolução com 50 iterações (2 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:20:53 PM EDT 2024] Executando convolução com 2 CPU(s), 2048 MB de memória e 100 iterações
+A tarefa levou 2.91012 segundos para ser executada
+[Fri Aug 16 02:20:57 PM EDT 2024] Convolução com 100 iterações (2 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:20:57 PM EDT 2024] Executando convolução com 3 CPU(s), 512 MB de memória e 30 iterações
+A tarefa levou 0.585343 segundos para ser executada
+[Fri Aug 16 02:20:59 PM EDT 2024] Convolução com 30 iterações (3 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:20:59 PM EDT 2024] Executando convolução com 3 CPU(s), 512 MB de memória e 50 iterações
+A tarefa levou 0.983647 segundos para ser executada
+[Fri Aug 16 02:21:02 PM EDT 2024] Convolução com 50 iterações (3 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:21:02 PM EDT 2024] Executando convolução com 3 CPU(s), 512 MB de memória e 100 iterações
+A tarefa levou 1.984 segundos para ser executada
+[Fri Aug 16 02:21:05 PM EDT 2024] Convolução com 100 iterações (3 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:21:05 PM EDT 2024] Executando convolução com 3 CPU(s), 1024 MB de memória e 30 iterações
+A tarefa levou 0.592687 segundos para ser executada
+[Fri Aug 16 02:21:08 PM EDT 2024] Convolução com 30 iterações (3 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:21:08 PM EDT 2024] Executando convolução com 3 CPU(s), 1024 MB de memória e 50 iterações
+A tarefa levou 0.998428 segundos para ser executada
+[Fri Aug 16 02:21:10 PM EDT 2024] Convolução com 50 iterações (3 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:21:10 PM EDT 2024] Executando convolução com 3 CPU(s), 1024 MB de memória e 100 iterações
+A tarefa levou 1.9706 segundos para ser executada
+[Fri Aug 16 02:21:13 PM EDT 2024] Convolução com 100 iterações (3 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:21:13 PM EDT 2024] Executando convolução com 3 CPU(s), 2048 MB de memória e 30 iterações
+A tarefa levou 0.599723 segundos para ser executada
+[Fri Aug 16 02:21:15 PM EDT 2024] Convolução com 30 iterações (3 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:21:16 PM EDT 2024] Executando convolução com 3 CPU(s), 2048 MB de memória e 50 iterações
+A tarefa levou 0.992946 segundos para ser executada
+[Fri Aug 16 02:21:18 PM EDT 2024] Convolução com 50 iterações (3 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:21:18 PM EDT 2024] Executando convolução com 3 CPU(s), 2048 MB de memória e 100 iterações
+A tarefa levou 1.98619 segundos para ser executada
+[Fri Aug 16 02:21:21 PM EDT 2024] Convolução com 100 iterações (3 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:21:21 PM EDT 2024] Executando convolução com 4 CPU(s), 512 MB de memória e 30 iterações
+A tarefa levou 0.453426 segundos para ser executada
+[Fri Aug 16 02:21:23 PM EDT 2024] Convolução com 30 iterações (4 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:21:23 PM EDT 2024] Executando convolução com 4 CPU(s), 512 MB de memória e 50 iterações
+A tarefa levou 0.747156 segundos para ser executada
+[Fri Aug 16 02:21:26 PM EDT 2024] Convolução com 50 iterações (4 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:21:26 PM EDT 2024] Executando convolução com 4 CPU(s), 512 MB de memória e 100 iterações
+A tarefa levou 1.50782 segundos para ser executada
+[Fri Aug 16 02:21:28 PM EDT 2024] Convolução com 100 iterações (4 CPU(s), 512 MB) finalizada
+[Fri Aug 16 02:21:29 PM EDT 2024] Executando convolução com 4 CPU(s), 1024 MB de memória e 30 iterações
+A tarefa levou 0.450774 segundos para ser executada
+[Fri Aug 16 02:21:30 PM EDT 2024] Convolução com 30 iterações (4 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:21:30 PM EDT 2024] Executando convolução com 4 CPU(s), 1024 MB de memória e 50 iterações
+A tarefa levou 0.755312 segundos para ser executada
+[Fri Aug 16 02:21:33 PM EDT 2024] Convolução com 50 iterações (4 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:21:33 PM EDT 2024] Executando convolução com 4 CPU(s), 1024 MB de memória e 100 iterações
+A tarefa levou 1.4929 segundos para ser executada
+[Fri Aug 16 02:21:36 PM EDT 2024] Convolução com 100 iterações (4 CPU(s), 1024 MB) finalizada
+[Fri Aug 16 02:21:36 PM EDT 2024] Executando convolução com 4 CPU(s), 2048 MB de memória e 30 iterações
+A tarefa levou 0.45095 segundos para ser executada
+[Fri Aug 16 02:21:38 PM EDT 2024] Convolução com 30 iterações (4 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:21:38 PM EDT 2024] Executando convolução com 4 CPU(s), 2048 MB de memória e 50 iterações
+A tarefa levou 0.743556 segundos para ser executada
+[Fri Aug 16 02:21:40 PM EDT 2024] Convolução com 50 iterações (4 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:21:40 PM EDT 2024] Executando convolução com 4 CPU(s), 2048 MB de memória e 100 iterações
+A tarefa levou 1.50681 segundos para ser executada
+[Fri Aug 16 02:21:43 PM EDT 2024] Convolução com 100 iterações (4 CPU(s), 2048 MB) finalizada
+[Fri Aug 16 02:21:43 PM EDT 2024] Job convolucao_mixed finalizado
