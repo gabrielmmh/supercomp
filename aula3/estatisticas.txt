@@ -1,0 +1,4 @@
+Número total de linhas: 1
+Número total de palavras: 3
+Número médio de palavras por linha: 3
+Palavra mais frequente: teste (aparece 3 vezes)
