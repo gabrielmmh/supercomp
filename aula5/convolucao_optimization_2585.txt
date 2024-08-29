@@ -1,0 +1,37 @@
+[Fri Aug 23 10:17:17 AM EDT 2024] Executando convolucao_basicao com 30 iterações
+A tarefa levou 1.75769 segundos para ser executada
+[Fri Aug 23 10:17:20 AM EDT 2024] Convolução com 30 iterações (convolucao_basicao) finalizada
+[Fri Aug 23 10:17:20 AM EDT 2024] Executando convolucao_basicao com 50 iterações
+A tarefa levou 2.91268 segundos para ser executada
+[Fri Aug 23 10:17:24 AM EDT 2024] Convolução com 50 iterações (convolucao_basicao) finalizada
+[Fri Aug 23 10:17:24 AM EDT 2024] Executando convolucao_basicao com 100 iterações
+A tarefa levou 5.84746 segundos para ser executada
+[Fri Aug 23 10:17:31 AM EDT 2024] Convolução com 100 iterações (convolucao_basicao) finalizada
+[Fri Aug 23 10:17:31 AM EDT 2024] Executando convolucao_O1 com 30 iterações
+A tarefa levou 0.449282 segundos para ser executada
+[Fri Aug 23 10:17:33 AM EDT 2024] Convolução com 30 iterações (convolucao_O1) finalizada
+[Fri Aug 23 10:17:33 AM EDT 2024] Executando convolucao_O1 com 50 iterações
+A tarefa levou 0.747609 segundos para ser executada
+[Fri Aug 23 10:17:36 AM EDT 2024] Convolução com 50 iterações (convolucao_O1) finalizada
+[Fri Aug 23 10:17:36 AM EDT 2024] Executando convolucao_O1 com 100 iterações
+A tarefa levou 1.49452 segundos para ser executada
+[Fri Aug 23 10:17:39 AM EDT 2024] Convolução com 100 iterações (convolucao_O1) finalizada
+[Fri Aug 23 10:17:39 AM EDT 2024] Executando convolucao_O2 com 30 iterações
+A tarefa levou 0.373469 segundos para ser executada
+[Fri Aug 23 10:17:40 AM EDT 2024] Convolução com 30 iterações (convolucao_O2) finalizada
+[Fri Aug 23 10:17:40 AM EDT 2024] Executando convolucao_O2 com 50 iterações
+A tarefa levou 0.622205 segundos para ser executada
+[Fri Aug 23 10:17:42 AM EDT 2024] Convolução com 50 iterações (convolucao_O2) finalizada
+[Fri Aug 23 10:17:42 AM EDT 2024] Executando convolucao_O2 com 100 iterações
+A tarefa levou 1.24553 segundos para ser executada
+[Fri Aug 23 10:17:45 AM EDT 2024] Convolução com 100 iterações (convolucao_O2) finalizada
+[Fri Aug 23 10:17:45 AM EDT 2024] Executando convolucao_O3 com 30 iterações
+A tarefa levou 0.159847 segundos para ser executada
+[Fri Aug 23 10:17:47 AM EDT 2024] Convolução com 30 iterações (convolucao_O3) finalizada
+[Fri Aug 23 10:17:47 AM EDT 2024] Executando convolucao_O3 com 50 iterações
+A tarefa levou 0.266675 segundos para ser executada
+[Fri Aug 23 10:17:48 AM EDT 2024] Convolução com 50 iterações (convolucao_O3) finalizada
+[Fri Aug 23 10:17:48 AM EDT 2024] Executando convolucao_O3 com 100 iterações
+A tarefa levou 0.534392 segundos para ser executada
+[Fri Aug 23 10:17:50 AM EDT 2024] Convolução com 100 iterações (convolucao_O3) finalizada
+[Fri Aug 23 10:17:50 AM EDT 2024] Job convolucao_optimization finalizado
