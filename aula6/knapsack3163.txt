@@ -1,0 +1,33 @@
+[Fri Aug 30 08:27:32 AM EDT 2024] Executando mochila com entrada: entrada1.txt
+O valor máximo que pode ser colocado na mochila é: 266
+
+real	0m0.041s
+user	0m0.001s
+sys	0m0.000s
+
+[Fri Aug 30 08:27:32 AM EDT 2024] Execução com entrada entrada1.txt finalizada
+[Fri Aug 30 08:27:32 AM EDT 2024] Executando mochila com entrada: entrada2.txt
+O valor máximo que pode ser colocado na mochila é: 156
+
+real	0m0.041s
+user	0m0.000s
+sys	0m0.001s
+
+[Fri Aug 30 08:27:32 AM EDT 2024] Execução com entrada entrada2.txt finalizada
+[Fri Aug 30 08:27:32 AM EDT 2024] Executando mochila com entrada: entrada3.txt
+O valor máximo que pode ser colocado na mochila é: 236
+
+real	0m0.350s
+user	0m0.000s
+sys	0m0.001s
+
+[Fri Aug 30 08:27:32 AM EDT 2024] Execução com entrada entrada3.txt finalizada
+[Fri Aug 30 08:27:32 AM EDT 2024] Executando mochila com entrada: entrada4.txt
+O valor máximo que pode ser colocado na mochila é: 55
+
+real	0m0.040s
+user	0m0.001s
+sys	0m0.000s
+
+[Fri Aug 30 08:27:32 AM EDT 2024] Execução com entrada entrada4.txt finalizada
+[Fri Aug 30 08:27:32 AM EDT 2024] Job knapsack finalizado
