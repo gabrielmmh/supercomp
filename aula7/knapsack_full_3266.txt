@@ -1,0 +1,17 @@
+[Fri Aug 30 09:50:07 AM EDT 2024] Executando busca exaustiva com entrada: entrada1.txt
+O valor máximo que pode ser colocado na mochila é: 601
+
+real	0m1.058s
+user	0m0.963s
+sys	0m0.000s
+
+[Fri Aug 30 09:50:08 AM EDT 2024] Execução exaustiva com entrada entrada1.txt finalizada
+[Fri Aug 30 09:50:08 AM EDT 2024] Executando busca exaustiva com entrada: entrada2.txt
+O valor máximo que pode ser colocado na mochila é: 870
+
+real	1m2.193s
+user	1m2.077s
+sys	0m0.000s
+
+[Fri Aug 30 09:51:10 AM EDT 2024] Execução exaustiva com entrada entrada2.txt finalizada
+[Fri Aug 30 09:51:10 AM EDT 2024] Executando busca exaustiva com entrada: entrada3.txt
