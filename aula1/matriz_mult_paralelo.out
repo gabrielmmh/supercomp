@@ -1,0 +1,3 @@
+Tamanho da matriz: 300x300, Tempo de execução em C++ com OpenMP: 0.0453426 segundos
+Tamanho da matriz: 900x900, Tempo de execução em C++ com OpenMP: 1.07161 segundos
+Tamanho da matriz: 1300x1300, Tempo de execução em C++ com OpenMP: 3.15646 segundos
