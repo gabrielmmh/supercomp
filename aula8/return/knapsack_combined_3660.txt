@@ -1,0 +1,73 @@
+[Tue Sep  3 04:04:52 PM EDT 2024] Executando full com entrada: entradas/entrada1.txt
+O valor máximo que pode ser colocado na mochila usando full é: 164
+
+real	0m0.059s
+user	0m0.001s
+sys	0m0.000s
+
+[Tue Sep  3 04:04:52 PM EDT 2024] Execução de full com entrada entradas/entrada1.txt finalizada
+[Tue Sep  3 04:04:52 PM EDT 2024] Executando substituition com entrada: entradas/entrada1.txt
+O valor máximo que pode ser colocado na mochila usando substituition é: 164
+
+real	0m0.050s
+user	0m0.001s
+sys	0m0.000s
+
+[Tue Sep  3 04:04:52 PM EDT 2024] Execução de substituition com entrada entradas/entrada1.txt finalizada
+[Tue Sep  3 04:04:52 PM EDT 2024] Executando hillclimbing com entrada: entradas/entrada1.txt
+O valor máximo que pode ser colocado na mochila usando hillclimbing é: 164
+
+real	0m0.049s
+user	0m0.000s
+sys	0m0.001s
+
+[Tue Sep  3 04:04:52 PM EDT 2024] Execução de hillclimbing com entrada entradas/entrada1.txt finalizada
+[Tue Sep  3 04:04:52 PM EDT 2024] Executando full com entrada: entradas/entrada2.txt
+O valor máximo que pode ser colocado na mochila usando full é: 206
+
+real	0m0.059s
+user	0m0.001s
+sys	0m0.000s
+
+[Tue Sep  3 04:04:52 PM EDT 2024] Execução de full com entrada entradas/entrada2.txt finalizada
+[Tue Sep  3 04:04:52 PM EDT 2024] Executando substituition com entrada: entradas/entrada2.txt
+O valor máximo que pode ser colocado na mochila usando substituition é: 206
+
+real	0m0.051s
+user	0m0.000s
+sys	0m0.001s
+
+[Tue Sep  3 04:04:52 PM EDT 2024] Execução de substituition com entrada entradas/entrada2.txt finalizada
+[Tue Sep  3 04:04:52 PM EDT 2024] Executando hillclimbing com entrada: entradas/entrada2.txt
+O valor máximo que pode ser colocado na mochila usando hillclimbing é: 206
+
+real	0m0.051s
+user	0m0.001s
+sys	0m0.000s
+
+[Tue Sep  3 04:04:52 PM EDT 2024] Execução de hillclimbing com entrada entradas/entrada2.txt finalizada
+[Tue Sep  3 04:04:52 PM EDT 2024] Executando full com entrada: entradas/entrada3.txt
+O valor máximo que pode ser colocado na mochila usando full é: 23
+
+real	0m0.057s
+user	0m0.001s
+sys	0m0.000s
+
+[Tue Sep  3 04:04:52 PM EDT 2024] Execução de full com entrada entradas/entrada3.txt finalizada
+[Tue Sep  3 04:04:52 PM EDT 2024] Executando substituition com entrada: entradas/entrada3.txt
+O valor máximo que pode ser colocado na mochila usando substituition é: 23
+
+real	0m0.059s
+user	0m0.001s
+sys	0m0.000s
+
+[Tue Sep  3 04:04:52 PM EDT 2024] Execução de substituition com entrada entradas/entrada3.txt finalizada
+[Tue Sep  3 04:04:52 PM EDT 2024] Executando hillclimbing com entrada: entradas/entrada3.txt
+O valor máximo que pode ser colocado na mochila usando hillclimbing é: 23
+
+real	0m0.058s
+user	0m0.000s
+sys	0m0.001s
+
+[Tue Sep  3 04:04:53 PM EDT 2024] Execução de hillclimbing com entrada entradas/entrada3.txt finalizada
+[Tue Sep  3 04:04:53 PM EDT 2024] Job knapsack_combined finalizado
