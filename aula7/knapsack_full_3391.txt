@@ -1,0 +1,9 @@
+[Fri Aug 30 02:11:47 PM EDT 2024] Executando busca exaustiva com entrada: entrada4.txt
+O valor máximo que pode ser colocado na mochila é: 648
+
+real	0m8.352s
+user	0m8.223s
+sys	0m0.001s
+
+[Fri Aug 30 02:11:55 PM EDT 2024] Execução exaustiva com entrada entrada4.txt finalizada
+[Fri Aug 30 02:11:55 PM EDT 2024] Job knapsack finalizado

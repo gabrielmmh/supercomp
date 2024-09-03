@@ -1,0 +1,281 @@
+[Fri Aug 30 12:42:09 PM EDT 2024] Executando heurística embaralhada (1) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 174
+
+real	0m0.091s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:09 PM EDT 2024] Execução da heurística embaralhada (1) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:09 PM EDT 2024] Executando heurística probabilística (1) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 301
+
+real	0m0.074s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:10 PM EDT 2024] Execução da heurística probabilística (1) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:10 PM EDT 2024] Executando heurística embaralhada (2) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 194
+
+real	0m0.066s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:10 PM EDT 2024] Execução da heurística embaralhada (2) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:10 PM EDT 2024] Executando heurística probabilística (2) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 209
+
+real	0m0.065s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:10 PM EDT 2024] Execução da heurística probabilística (2) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:10 PM EDT 2024] Executando heurística embaralhada (3) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 357
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:10 PM EDT 2024] Execução da heurística embaralhada (3) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:10 PM EDT 2024] Executando heurística probabilística (3) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 188
+
+real	0m0.066s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:10 PM EDT 2024] Execução da heurística probabilística (3) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:10 PM EDT 2024] Executando heurística embaralhada (4) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 260
+
+real	0m0.065s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:10 PM EDT 2024] Execução da heurística embaralhada (4) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:10 PM EDT 2024] Executando heurística probabilística (4) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 231
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:10 PM EDT 2024] Execução da heurística probabilística (4) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:11 PM EDT 2024] Executando heurística embaralhada (5) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 418
+
+real	0m0.067s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:11 PM EDT 2024] Execução da heurística embaralhada (5) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:11 PM EDT 2024] Executando heurística probabilística (5) com entrada: entrada1.txt
+O valor máximo encontrado pela heurística é: 349
+
+real	0m0.066s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:11 PM EDT 2024] Execução da heurística probabilística (5) com entrada entrada1.txt finalizada
+[Fri Aug 30 12:42:11 PM EDT 2024] Executando heurística embaralhada (1) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 230
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:11 PM EDT 2024] Execução da heurística embaralhada (1) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:11 PM EDT 2024] Executando heurística probabilística (1) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 193
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:11 PM EDT 2024] Execução da heurística probabilística (1) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:11 PM EDT 2024] Executando heurística embaralhada (2) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 246
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:11 PM EDT 2024] Execução da heurística embaralhada (2) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:11 PM EDT 2024] Executando heurística probabilística (2) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 244
+
+real	0m0.065s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:11 PM EDT 2024] Execução da heurística probabilística (2) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:11 PM EDT 2024] Executando heurística embaralhada (3) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 229
+
+real	0m0.066s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:11 PM EDT 2024] Execução da heurística embaralhada (3) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:11 PM EDT 2024] Executando heurística probabilística (3) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 117
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:12 PM EDT 2024] Execução da heurística probabilística (3) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:12 PM EDT 2024] Executando heurística embaralhada (4) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 244
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:12 PM EDT 2024] Execução da heurística embaralhada (4) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:12 PM EDT 2024] Executando heurística probabilística (4) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 252
+
+real	0m0.065s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:12 PM EDT 2024] Execução da heurística probabilística (4) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:12 PM EDT 2024] Executando heurística embaralhada (5) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 363
+
+real	0m0.115s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:12 PM EDT 2024] Execução da heurística embaralhada (5) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:12 PM EDT 2024] Executando heurística probabilística (5) com entrada: entrada2.txt
+O valor máximo encontrado pela heurística é: 264
+
+real	0m0.067s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:12 PM EDT 2024] Execução da heurística probabilística (5) com entrada entrada2.txt finalizada
+[Fri Aug 30 12:42:12 PM EDT 2024] Executando heurística embaralhada (1) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 3320
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:12 PM EDT 2024] Execução da heurística embaralhada (1) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:12 PM EDT 2024] Executando heurística probabilística (1) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 1713
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:12 PM EDT 2024] Execução da heurística probabilística (1) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:12 PM EDT 2024] Executando heurística embaralhada (2) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 3320
+
+real	0m0.065s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:13 PM EDT 2024] Execução da heurística embaralhada (2) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:13 PM EDT 2024] Executando heurística probabilística (2) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 1717
+
+real	0m0.066s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:13 PM EDT 2024] Execução da heurística probabilística (2) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:13 PM EDT 2024] Executando heurística embaralhada (3) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 3320
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:13 PM EDT 2024] Execução da heurística embaralhada (3) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:13 PM EDT 2024] Executando heurística probabilística (3) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 1932
+
+real	0m0.067s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:13 PM EDT 2024] Execução da heurística probabilística (3) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:13 PM EDT 2024] Executando heurística embaralhada (4) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 3320
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:13 PM EDT 2024] Execução da heurística embaralhada (4) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:13 PM EDT 2024] Executando heurística probabilística (4) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 1723
+
+real	0m0.116s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:13 PM EDT 2024] Execução da heurística probabilística (4) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:13 PM EDT 2024] Executando heurística embaralhada (5) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 3320
+
+real	0m0.066s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:13 PM EDT 2024] Execução da heurística embaralhada (5) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:14 PM EDT 2024] Executando heurística probabilística (5) com entrada: entrada3.txt
+O valor máximo encontrado pela heurística é: 1492
+
+real	0m0.117s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:14 PM EDT 2024] Execução da heurística probabilística (5) com entrada entrada3.txt finalizada
+[Fri Aug 30 12:42:14 PM EDT 2024] Executando heurística embaralhada (1) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 500
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:14 PM EDT 2024] Execução da heurística embaralhada (1) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:14 PM EDT 2024] Executando heurística probabilística (1) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 364
+
+real	0m0.066s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:14 PM EDT 2024] Execução da heurística probabilística (1) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:14 PM EDT 2024] Executando heurística embaralhada (2) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 456
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:14 PM EDT 2024] Execução da heurística embaralhada (2) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:14 PM EDT 2024] Executando heurística probabilística (2) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 440
+
+real	0m0.066s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:14 PM EDT 2024] Execução da heurística probabilística (2) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:14 PM EDT 2024] Executando heurística embaralhada (3) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 496
+
+real	0m0.067s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:14 PM EDT 2024] Execução da heurística embaralhada (3) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:14 PM EDT 2024] Executando heurística probabilística (3) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 356
+
+real	0m0.073s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:14 PM EDT 2024] Execução da heurística probabilística (3) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:15 PM EDT 2024] Executando heurística embaralhada (4) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 530
+
+real	0m0.117s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:15 PM EDT 2024] Execução da heurística embaralhada (4) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:15 PM EDT 2024] Executando heurística probabilística (4) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 305
+
+real	0m0.066s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:15 PM EDT 2024] Execução da heurística probabilística (4) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:15 PM EDT 2024] Executando heurística embaralhada (5) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 485
+
+real	0m0.066s
+user	0m0.000s
+sys	0m0.001s
+[Fri Aug 30 12:42:15 PM EDT 2024] Execução da heurística embaralhada (5) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:15 PM EDT 2024] Executando heurística probabilística (5) com entrada: entrada4.txt
+O valor máximo encontrado pela heurística é: 382
+
+real	0m0.075s
+user	0m0.001s
+sys	0m0.000s
+[Fri Aug 30 12:42:15 PM EDT 2024] Execução da heurística probabilística (5) com entrada entrada4.txt finalizada
+[Fri Aug 30 12:42:15 PM EDT 2024] Job knapsack finalizado
