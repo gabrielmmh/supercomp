@@ -1,0 +1,23 @@
+cc1plus: fatal error: mais_caro_primeiro.cpp: No such file or directory
+compilation terminated.
+cc1plus: fatal error: mais_leve_primeiro.cpp: No such file or directory
+compilation terminated.
+[Tue Sep 10 12:28:47 PM EDT 2024] Executando heurística Mais Caro Primeiro com entrada: entradas/entrada1.txt
+O valor máximo que pode ser colocado na mochila (Mais Caro Primeiro) é: 73
+[Tue Sep 10 12:28:47 PM EDT 2024] Execução da heurística Mais Caro Primeiro com entrada entradas/entrada1.txt finalizada
+[Tue Sep 10 12:28:47 PM EDT 2024] Executando heurística Mais Leve Primeiro com entrada: entradas/entrada1.txt
+O valor máximo que pode ser colocado na mochila (Mais Leve Primeiro) é: 46
+[Tue Sep 10 12:28:47 PM EDT 2024] Execução da heurística Mais Leve Primeiro com entrada entradas/entrada1.txt finalizada
+[Tue Sep 10 12:28:47 PM EDT 2024] Executando heurística Mais Caro Primeiro com entrada: entradas/entrada2.txt
+O valor máximo que pode ser colocado na mochila (Mais Caro Primeiro) é: 321
+[Tue Sep 10 12:28:47 PM EDT 2024] Execução da heurística Mais Caro Primeiro com entrada entradas/entrada2.txt finalizada
+[Tue Sep 10 12:28:47 PM EDT 2024] Executando heurística Mais Leve Primeiro com entrada: entradas/entrada2.txt
+O valor máximo que pode ser colocado na mochila (Mais Leve Primeiro) é: 361
+[Tue Sep 10 12:28:47 PM EDT 2024] Execução da heurística Mais Leve Primeiro com entrada entradas/entrada2.txt finalizada
+[Tue Sep 10 12:28:48 PM EDT 2024] Executando heurística Mais Caro Primeiro com entrada: entradas/entrada3.txt
+O valor máximo que pode ser colocado na mochila (Mais Caro Primeiro) é: 1109
+[Tue Sep 10 12:28:48 PM EDT 2024] Execução da heurística Mais Caro Primeiro com entrada entradas/entrada3.txt finalizada
+[Tue Sep 10 12:28:48 PM EDT 2024] Executando heurística Mais Leve Primeiro com entrada: entradas/entrada3.txt
+O valor máximo que pode ser colocado na mochila (Mais Leve Primeiro) é: 1162
+[Tue Sep 10 12:28:48 PM EDT 2024] Execução da heurística Mais Leve Primeiro com entrada entradas/entrada3.txt finalizada
+[Tue Sep 10 12:28:48 PM EDT 2024] Job knapsack_heuristics finalizado
