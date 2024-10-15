@@ -1,0 +1,142 @@
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 0.000163648 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.72132e-06 segundos
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 2.63285e-06 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.57231e-06 segundos
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 2.60677e-06 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.45217e-06 segundos
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 2.51736e-06 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.49501e-06 segundos
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 3.55579e-06 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.42144e-06 segundos
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 2.44565e-06 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.52109e-06 segundos
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 2.55276e-06 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.38419e-06 segundos
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 2.40561e-06 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.39909e-06 segundos
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 2.39722e-06 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.50246e-06 segundos
+default:               
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para default:               : 2.60491e-06 segundos
+schedule(static):      
+****************                                                
+                ****************                                
+                                ****************                
+                                                ****************
+
+Tempo de execução para schedule(static):      : 2.34786e-06 segundos
+Tempo médio de execução para default: 1.87367e-05 segundos
+Tempo médio de execução para schedule(static): 2.4817e-06 segundos

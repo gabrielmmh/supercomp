@@ -1,0 +1,3 @@
+Tempo de execução com omp critical: 0.10071 segundos
+Tempo de execução com omp critical: 0.0944509 segundos
+Tempo de execução com omp critical: 0.0772532 segundos

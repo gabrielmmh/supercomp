@@ -1,0 +1,3 @@
+Tempo de execução com pré-alocação de memória: 0.000668623 segundos
+Tempo de execução com pré-alocação de memória: 0.000671481 segundos
+Tempo de execução com pré-alocação de memória: 0.000668386 segundos
