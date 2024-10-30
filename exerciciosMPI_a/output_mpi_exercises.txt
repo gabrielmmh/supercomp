@@ -1,0 +1,35 @@
+[Exercício 1] Comunicação entre dois processos
+Processo 0 recebeu: Oi
+Processo 1 recebeu: Olá
+
+[Exercício 2] Anel de processos
+Processo 0 recebeu: Mensagem do anel
+Processo 1 recebeu: Mensagem do anel
+Processo 2 recebeu: Mensagem do anel
+Processo 3 recebeu: Mensagem do anel
+
+[Exercício 3] Difusão Linear
+Processo 0 enviando mensagem para processo 1
+Processo 1 recebeu: Mensagem de difusão
+Processo 1 enviando mensagem para processo 2
+Processo 2 recebeu: Mensagem de difusão
+Processo 2 enviando mensagem para processo 3
+Processo 1 finalizando
+Processo 2 finalizando
+Processo 0 finalizando
+Processo 3 recebeu: Mensagem de difusão
+Processo 3 finalizando
+
+[Exercício 4] Comunicação Múltipla
+Processo 1 recebeu: Mensagem para o processo 1
+Processo 2 recebeu: Mensagem para o processo 2
+Processo 3 recebeu: Mensagem para o processo 3
+
+[Exercício 5] Somas Paralelas
+Soma total: 10
+
+[Exercício 6] Alternância de Mensagens
+Processo 0 recebeu resposta de 1: Mensagem de teste
+Processo 0 recebeu resposta de 2: Mensagem de teste
+Processo 0 recebeu resposta de 3: Mensagem de teste
+

@@ -1,0 +1,20 @@
+[Exercício 1] Cálculo Distribuído da Média de um Array
+Array gerado: 59 14 98 56 2 60 60 25 24 1 63 42 74 44 23 58 
+Média Global: 43.9375
+
+[Exercício 2] Distribuição de Configuração para Cálculos Paralelos
+Processo 0 executando 100 iterações.
+Processo 2 executando 100 iterações.
+Processo 1 executando 100 iterações.
+Processo 3 executando 100 iterações.
+
+[Exercício 3] Normalização de um Array em Paralelo
+Array inicial: 83 86 77 15 93 35 86 92 49 21 62 27 90 59 63 26 
+Valor máximo: 93
+Array normalizado: 0.89 0.92 0.83 0.16 1.00 0.38 0.92 0.99 0.53 0.23 0.67 0.29 0.97 0.63 0.68 0.28 
+
+[Exercício 4] Cálculo Distribuído de Desvio Padrão
+Array inicial: 83 86 77 15 93 35 86 92 49 21 62 27 90 59 63 26 
+Média Global: 60.25
+Desvio Padrão Global: 27.0797
+
