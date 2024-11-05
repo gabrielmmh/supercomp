@@ -1,0 +1,32 @@
+[Exercício 1] Cálculo do Quadrado de cada Elemento da Matriz
+Matriz original:
+7 8 1 7 
+7 8 3 4 
+2 2 9 6 
+9 8 5 9 
+Matriz ao quadrado:
+49 64 1 49 
+49 64 9 16 
+4 4 81 36 
+81 64 25 81 
+
+[Exercício 2] Cálculo do Quadrado de cada Elemento da Matriz (MPI)
+Matriz original:
+8 4 3 0 
+4 8 9 9 
+1 0 1 2 
+2 1 7 9 
+Matriz ao quadrado (MPI):
+64 16 9 0 
+16 64 81 81 
+1 0 1 4 
+4 1 49 81 
+
+[Exercício 3] Cálculo Distribuído da Média de um Array
+Array gerado: 99 19 66 17 12 73 61 27 16 65 77 2 2 41 21 93 
+Média Global: 43.1875
+
+[Exercício 4] Busca em Vetor Distribuído
+Array gerado: 3 25 5 99 9 81 57 75 31 61 33 57 71 95 15 64 
+Total de ocorrências do valor 50: 0
+
