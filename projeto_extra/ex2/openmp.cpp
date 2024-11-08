@@ -17,6 +17,17 @@ void transcribe_dna_to_rna(std::string &sequence) {
     }
 }
 
+void write_rna_sequence(const std::string &rna_sequence, const std::string &filename) {
+    std::ofstream output(filename);
+    output << "> RNA transcribed from DNA\n";
+
+    // Escrever a sequência em linhas de 50 caracteres
+    for (size_t i = 0; i < rna_sequence.size(); i += 50) {
+        output << rna_sequence.substr(i, 50) << '\n';
+    }
+    output.close();
+}
+
 int main() {
     auto start_time = std::chrono::system_clock::now();
     std::time_t start_time_t = std::chrono::system_clock::to_time_t(start_time);
@@ -47,10 +58,8 @@ int main() {
         // Transcrição usando OpenMP
         transcribe_dna_to_rna(dna_sequence);
 
-        // Salvar o RNA transcrito na pasta "output_openmp"
-        std::ofstream output("output_openmp/transcribed_chr" + std::to_string(file_num) + ".fa");
-        output << "> RNA transcribed from DNA\n" << dna_sequence;
-        output.close();
+        // Salvar o RNA transcrito na pasta "output_openmp" com formatação de 50 caracteres por linha
+        write_rna_sequence(dna_sequence, "output_openmp/transcribed_chr" + std::to_string(file_num) + ".fa");
 
         std::cout << "Transcrição concluída para " << filename << " e salva em output_openmp/transcribed_chr" << file_num << ".fa." << std::endl;
     }

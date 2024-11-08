@@ -17,6 +17,17 @@ void transcribe_dna_to_rna(std::string &dna_sequence) {
     }
 }
 
+void write_rna_sequence(const std::string &rna_sequence, const std::string &filename) {
+    std::ofstream output(filename);
+    output << "> RNA transcribed from DNA\n";
+
+    // Escrever a sequência em linhas de 50 caracteres
+    for (size_t i = 0; i < rna_sequence.size(); i += 50) {
+        output << rna_sequence.substr(i, 50) << '\n';
+    }
+    output.close();
+}
+
 int main(int argc, char **argv) {
     MPI_Init(&argc, &argv);
 
@@ -80,10 +91,8 @@ int main(int argc, char **argv) {
                 rna_sequence += temp;
             }
 
-            // Salvar o RNA convertido na pasta "output_mpi"
-            std::ofstream output("output_mpi/transcribed_chr" + std::to_string(file_num) + ".fa");
-            output << "> RNA transcribed from DNA\n" << rna_sequence;
-            output.close();
+            // Salvar o RNA convertido na pasta "output_mpi" com formatação de 50 caracteres por linha
+            write_rna_sequence(rna_sequence, "output_mpi/transcribed_chr" + std::to_string(file_num) + ".fa");
         } else {
             int local_size = local_dna.size();
             MPI_Send(&local_size, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
