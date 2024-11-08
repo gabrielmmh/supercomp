@@ -6,10 +6,9 @@
 #SBATCH --time=00:05:00
 #SBATCH --mem=12000M
 
-echo "[Exercício 2 - MPI]"
-mpirun -np 4 ./mpi
-echo -e ""
-
-echo "[Exercício 2 - OpenMP]"
-./openmp
-echo -e ""
+echo "[Exercício 2]"
+for i in {1..22}; do
+    echo "Processando chr${i}_upper.subst.fa"
+    mpirun -np 4 ./mpi_openmp ../dados/preprocessed/chr${i}_upper.subst.fa
+    echo -e ""
+done
