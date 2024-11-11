@@ -14,3 +14,12 @@ Arquivo processado e salvo: preprocessed/chr22_upper.subst.fa
 Arquivo processado e salvo: preprocessed/chr12_upper.subst.fa
 Arquivo processado e salvo: preprocessed/chr3_upper.subst.fa
 Arquivo processado e salvo: preprocessed/chr13_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr14_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr4_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr15_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr5_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr6_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr7_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr8_upper.subst.fa
+Tempo de execução total: 55.425 segundos
+
