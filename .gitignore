@@ -6,10 +6,6 @@
 # (substitua "dados" pelo nome do diretório correto se estiver diferente)
 dados/*.subst.fa
 
-# Ignorar arquivos de saída e logs
-*.txt
-*.log
-
 # Ignorar executáveis e arquivos de build comuns
 *.o
 *.out

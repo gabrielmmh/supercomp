@@ -12,8 +12,19 @@
 void transcribe_dna_to_rna(std::string &sequence) {
     #pragma omp parallel for
     for (size_t i = 0; i < sequence.size(); i++) {
-        if (sequence[i] == 'T') {
-            sequence[i] = 'U';
+        switch (sequence[i]) {
+            case 'A':  // Adenina no DNA se torna Uracila no RNA
+                sequence[i] = 'U';
+                break;
+            case 'T':  // Timina no DNA se torna Adenina no RNA
+                sequence[i] = 'A';
+                break;
+            case 'C':  // Citosina no DNA se torna Guanina no RNA
+                sequence[i] = 'G';
+                break;
+            case 'G':  // Guanina no DNA se torna Citosina no RNA
+                sequence[i] = 'C';
+                break;
         }
     }
 }
@@ -44,7 +55,7 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    std::string filename = argv[1]; // Nome do arquivo fornecido como argumento
+    std::string filename = argv[1];  // Nome do arquivo fornecido como argumento
     if (world_rank == 0) {
         auto start_time = std::chrono::system_clock::now();
         std::time_t start_time_t = std::chrono::system_clock::to_time_t(start_time);

@@ -1,0 +1,31 @@
+[Exercício 1]
+Data e Hora de Início: 2024-11-08 12:52:09
+Processando arquivo: ../dados/preprocessed/chr1_upper.subst.fa pelo processo 0
+Processando arquivo: ../dados/preprocessed/chr2_upper.subst.fa pelo processo 1
+Processando arquivo: ../dados/preprocessed/chr3_upper.subst.fa pelo processo 2
+Processando arquivo: ../dados/preprocessed/chr4_upper.subst.fa pelo processo 3
+Processando arquivo: ../dados/preprocessed/chr8_upper.subst.fa pelo processo 3
+Processando arquivo: ../dados/preprocessed/chr7_upper.subst.fa pelo processo 2
+Processando arquivo: ../dados/preprocessed/chr5_upper.subst.fa pelo processo 0
+Processando arquivo: ../dados/preprocessed/chr6_upper.subst.fa pelo processo 1
+Processando arquivo: ../dados/preprocessed/chr12_upper.subst.fa pelo processo 3
+Processando arquivo: ../dados/preprocessed/chr11_upper.subst.fa pelo processo 2
+Processando arquivo: ../dados/preprocessed/chr9_upper.subst.fa pelo processo 0
+Processando arquivo: ../dados/preprocessed/chr16_upper.subst.fa pelo processo 3
+Processando arquivo: ../dados/preprocessed/chr10_upper.subst.fa pelo processo 1
+Processando arquivo: ../dados/preprocessed/chr15_upper.subst.fa pelo processo 2
+Processando arquivo: ../dados/preprocessed/chr20_upper.subst.fa pelo processo 3
+Processando arquivo: ../dados/preprocessed/chr13_upper.subst.fa pelo processo 0
+Processando arquivo: ../dados/preprocessed/chr19_upper.subst.fa pelo processo 2
+Processando arquivo: ../dados/preprocessed/chr14_upper.subst.fa pelo processo 1
+Processando arquivo: ../dados/preprocessed/chr17_upper.subst.fa pelo processo 0
+Processando arquivo: ../dados/preprocessed/chr18_upper.subst.fa pelo processo 1
+Processando arquivo: ../dados/preprocessed/chr21_upper.subst.fa pelo processo 0
+Processando arquivo: ../dados/preprocessed/chr22_upper.subst.fa pelo processo 1
+Contagem total de bases:
+C: 511685713
+G: 511971484
+T: 764606176
+A: 763517118
+Tempo de execução: 45.4796 segundos
+

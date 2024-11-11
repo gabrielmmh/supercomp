@@ -26,7 +26,7 @@ void preprocess_sequence(const std::string &input_line, std::string &output_sequ
 
 int main() {
     // Diretórios de entrada e saída
-    std::string input_dir = "dados/";
+    std::string input_dir = "dados/raw/";
     std::string output_dir = "dados/preprocessed/";
 
     // Cria o diretório de saída se não existir

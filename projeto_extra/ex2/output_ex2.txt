@@ -1,0 +1,177 @@
+[Exercício 2]
+Processando chr1_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:30:20
+Processando arquivo: ../dados/preprocessed/chr1_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 53626674 e dados ao processo mestre.
+Processo 2 enviou tamanho 53626674 e dados ao processo mestre.
+Processo 3 enviou tamanho 53626673 e dados ao processo mestre.
+Tempo de execução total: 5.75371 segundos
+
+Processando chr2_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:30:27
+Processando arquivo: ../dados/preprocessed/chr2_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 56674557 e dados ao processo mestre.
+Processo 2 enviou tamanho 56674557 e dados ao processo mestre.
+Processo 3 enviou tamanho 56674557 e dados ao processo mestre.
+Tempo de execução total: 5.98713 segundos
+
+Processando chr3_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:30:35
+Processando arquivo: ../dados/preprocessed/chr3_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 46333303 e dados ao processo mestre.
+Processo 2 enviou tamanho 46333303 e dados ao processo mestre.
+Processo 3 enviou tamanho 46333303 e dados ao processo mestre.
+Tempo de execução total: 5.24466 segundos
+
+Processando chr4_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:30:42
+Processando arquivo: ../dados/preprocessed/chr4_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 44643381 e dados ao processo mestre.
+Processo 2 enviou tamanho 44643381 e dados ao processo mestre.
+Processo 3 enviou tamanho 44643380 e dados ao processo mestre.
+Tempo de execução total: 4.51178 segundos
+
+Processando chr5_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:30:48
+Processando arquivo: ../dados/preprocessed/chr5_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 42301730 e dados ao processo mestre.
+Processo 2 enviou tamanho 42301729 e dados ao processo mestre.
+Processo 3 enviou tamanho 42301729 e dados ao processo mestre.
+Tempo de execução total: 4.40491 segundos
+
+Processando chr6_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:30:53
+Processando arquivo: ../dados/preprocessed/chr6_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 39828481 e dados ao processo mestre.
+Processo 2 enviou tamanho 39828480 e dados ao processo mestre.
+Processo 3 enviou tamanho 39828480 e dados ao processo mestre.
+Tempo de execução total: 4.43175 segundos
+
+Processando chr7_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:30:59
+Processando arquivo: ../dados/preprocessed/chr7_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 36923959 e dados ao processo mestre.
+Processo 2 enviou tamanho 36923959 e dados ao processo mestre.
+Processo 3 enviou tamanho 36923959 e dados ao processo mestre.
+Tempo de execução total: 4.27706 segundos
+
+Processando chr8_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:05
+Processando arquivo: ../dados/preprocessed/chr8_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 33873723 e dados ao processo mestre.
+Processo 2 enviou tamanho 33873722 e dados ao processo mestre.
+Processo 3 enviou tamanho 33873722 e dados ao processo mestre.
+Tempo de execução total: 3.72416 segundos
+
+Processando chr9_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:10
+Processando arquivo: ../dados/preprocessed/chr9_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 28562167 e dados ao processo mestre.
+Processo 2 enviou tamanho 28562166 e dados ao processo mestre.
+Processo 3 enviou tamanho 28562166 e dados ao processo mestre.
+Tempo de execução total: 3.28643 segundos
+
+Processando chr10_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:15
+Processando arquivo: ../dados/preprocessed/chr10_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 31219904 e dados ao processo mestre.
+Processo 2 enviou tamanho 31219904 e dados ao processo mestre.
+Processo 3 enviou tamanho 31219904 e dados ao processo mestre.
+Tempo de execução total: 3.51429 segundos
+
+Processando chr11_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:20
+Processando arquivo: ../dados/preprocessed/chr11_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 31112433 e dados ao processo mestre.
+Processo 2 enviou tamanho 31112432 e dados ao processo mestre.
+Processo 3 enviou tamanho 31112432 e dados ao processo mestre.
+Tempo de execução total: 3.63952 segundos
+
+Processando chr12_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:25
+Processando arquivo: ../dados/preprocessed/chr12_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 31030954 e dados ao processo mestre.
+Processo 2 enviou tamanho 31030953 e dados ao processo mestre.
+Processo 3 enviou tamanho 31030953 e dados ao processo mestre.
+Tempo de execução total: 3.2488 segundos
+
+Processando chr13_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:30
+Processando arquivo: ../dados/preprocessed/chr13_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 22767237 e dados ao processo mestre.
+Processo 2 enviou tamanho 22767237 e dados ao processo mestre.
+Processo 3 enviou tamanho 22767237 e dados ao processo mestre.
+Tempo de execução total: 2.29924 segundos
+
+Processando chr14_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:34
+Processando arquivo: ../dados/preprocessed/chr14_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 20991960 e dados ao processo mestre.
+Processo 2 enviou tamanho 20991960 e dados ao processo mestre.
+Processo 3 enviou tamanho 20991960 e dados ao processo mestre.
+Tempo de execução total: 2.29788 segundos
+
+Processando chr15_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:38
+Processando arquivo: ../dados/preprocessed/chr15_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 19425487 e dados ao processo mestre.
+Processo 2 enviou tamanho 19425487 e dados ao processo mestre.
+Processo 3 enviou tamanho 19425487 e dados ao processo mestre.
+Tempo de execução total: 2.22845 segundos
+
+Processando chr16_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:41
+Processando arquivo: ../dados/preprocessed/chr16_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 18582968 e dados ao processo mestre.
+Processo 2 enviou tamanho 18582967 e dados ao processo mestre.
+Processo 3 enviou tamanho 18582967 e dados ao processo mestre.
+Tempo de execução total: 2.04763 segundos
+
+Processando chr17_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:45
+Processando arquivo: ../dados/preprocessed/chr17_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 18449086 e dados ao processo mestre.
+Processo 2 enviou tamanho 18449085 e dados ao processo mestre.
+Processo 3 enviou tamanho 18449085 e dados ao processo mestre.
+Tempo de execução total: 2.45677 segundos
+
+Processando chr18_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:49
+Processando arquivo: ../dados/preprocessed/chr18_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 17764191 e dados ao processo mestre.
+Processo 2 enviou tamanho 17764191 e dados ao processo mestre.
+Processo 3 enviou tamanho 17764191 e dados ao processo mestre.
+Tempo de execução total: 1.96067 segundos
+
+Processando chr19_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:52
+Processando arquivo: ../dados/preprocessed/chr19_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 13135559 e dados ao processo mestre.
+Processo 2 enviou tamanho 13135559 e dados ao processo mestre.
+Processo 3 enviou tamanho 13135558 e dados ao processo mestre.
+Tempo de execução total: 1.43424 segundos
+
+Processando chr20_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:55
+Processando arquivo: ../dados/preprocessed/chr20_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 14116497 e dados ao processo mestre.
+Processo 2 enviou tamanho 14116496 e dados ao processo mestre.
+Processo 3 enviou tamanho 14116496 e dados ao processo mestre.
+Tempo de execução total: 1.49617 segundos
+
+Processando chr21_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:31:58
+Processando arquivo: ../dados/preprocessed/chr21_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 8324398 e dados ao processo mestre.
+Processo 2 enviou tamanho 8324398 e dados ao processo mestre.
+Processo 3 enviou tamanho 8324398 e dados ao processo mestre.
+Tempo de execução total: 0.974172 segundos
+
+Processando chr22_upper.subst.fa
+Data e Hora de Início: 2024-11-11 16:32:01
+Processando arquivo: ../dados/preprocessed/chr22_upper.subst.fa pelo processo mestre.
+Processo 1 enviou tamanho 8256477 e dados ao processo mestre.
+Processo 2 enviou tamanho 8256477 e dados ao processo mestre.
+Processo 3 enviou tamanho 8256477 e dados ao processo mestre.
+Tempo de execução total: 0.929665 segundos
+
