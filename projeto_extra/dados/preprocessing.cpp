@@ -4,6 +4,7 @@
 #include <string>
 #include <cctype>  // Para toupper
 #include <sys/stat.h>
+
 #include <sys/types.h>
 
 // Função para pré-processar uma linha: filtrar bases e converter para maiúsculas
@@ -26,11 +27,14 @@ void preprocess_sequence(const std::string &input_line, std::string &output_sequ
 
 int main() {
     // Diretórios de entrada e saída
-    std::string input_dir = "dados/raw/";
-    std::string output_dir = "dados/preprocessed/";
+    std::string input_dir = "raw/";
+    std::string output_dir = "preprocessed/";
 
     // Cria o diretório de saída se não existir
     mkdir(output_dir.c_str(), 0777);
+
+    // Medir o tempo de execução
+    double start_time = omp_get_wtime();
 
     // Processar arquivos de chr1.subst.fa a chr22.subst.fa
     #pragma omp parallel for
@@ -92,6 +96,11 @@ int main() {
             std::cout << "Arquivo processado e salvo: " << output_filename << std::endl;
         }
     }
+
+    double end_time = omp_get_wtime();
+    double execution_time = end_time - start_time;
+
+    std::cout << "Tempo de execução total: " << execution_time << " segundos" << std::endl;
 
     return 0;
 }

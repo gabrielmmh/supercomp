@@ -1,0 +1,16 @@
+[Pré-processamento]
+Arquivo processado e salvo: preprocessed/chr16_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr9_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr17_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr1_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr10_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr18_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr19_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr11_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr20_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr2_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr21_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr22_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr12_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr3_upper.subst.fa
+Arquivo processado e salvo: preprocessed/chr13_upper.subst.fa

@@ -1,26 +1,26 @@
 [Exercício 3]
-Contagem de proteínas inicializadas (códons AUG) usando MPI e OpenMP:
-Arquivo ../ex2/output_mpi/transcribed_chr1_upper.subst.fa - Contagem de proteínas inicializadas: 783380
-Arquivo ../ex2/output_mpi/transcribed_chr2_upper.subst.fa - Contagem de proteínas inicializadas: 854275
-Arquivo ../ex2/output_mpi/transcribed_chr3_upper.subst.fa - Contagem de proteínas inicializadas: 713073
-Arquivo ../ex2/output_mpi/transcribed_chr4_upper.subst.fa - Contagem de proteínas inicializadas: 709283
-Arquivo ../ex2/output_mpi/transcribed_chr5_upper.subst.fa - Contagem de proteínas inicializadas: 649663
-Arquivo ../ex2/output_mpi/transcribed_chr6_upper.subst.fa - Contagem de proteínas inicializadas: 611450
-Arquivo ../ex2/output_mpi/transcribed_chr7_upper.subst.fa - Contagem de proteínas inicializadas: 547505
-Arquivo ../ex2/output_mpi/transcribed_chr8_upper.subst.fa - Contagem de proteínas inicializadas: 509230
-Arquivo ../ex2/output_mpi/transcribed_chr9_upper.subst.fa - Contagem de proteínas inicializadas: 420740
-Arquivo ../ex2/output_mpi/transcribed_chr10_upper.subst.fa - Contagem de proteínas inicializadas: 451362
-Arquivo ../ex2/output_mpi/transcribed_chr11_upper.subst.fa - Contagem de proteínas inicializadas: 454410
-Arquivo ../ex2/output_mpi/transcribed_chr12_upper.subst.fa - Contagem de proteínas inicializadas: 461470
-Arquivo ../ex2/output_mpi/transcribed_chr13_upper.subst.fa - Contagem de proteínas inicializadas: 358856
-Arquivo ../ex2/output_mpi/transcribed_chr14_upper.subst.fa - Contagem de proteínas inicializadas: 311124
-Arquivo ../ex2/output_mpi/transcribed_chr15_upper.subst.fa - Contagem de proteínas inicializadas: 282266
-Arquivo ../ex2/output_mpi/transcribed_chr16_upper.subst.fa - Contagem de proteínas inicializadas: 246121
-Arquivo ../ex2/output_mpi/transcribed_chr17_upper.subst.fa - Contagem de proteínas inicializadas: 242429
-Arquivo ../ex2/output_mpi/transcribed_chr18_upper.subst.fa - Contagem de proteínas inicializadas: 268502
-Arquivo ../ex2/output_mpi/transcribed_chr19_upper.subst.fa - Contagem de proteínas inicializadas: 157160
-Arquivo ../ex2/output_mpi/transcribed_chr20_upper.subst.fa - Contagem de proteínas inicializadas: 188357
-Arquivo ../ex2/output_mpi/transcribed_chr21_upper.subst.fa - Contagem de proteínas inicializadas: 122206
-Arquivo ../ex2/output_mpi/transcribed_chr22_upper.subst.fa - Contagem de proteínas inicializadas: 99672
-Contagem total de proteínas inicializadas em todos os arquivos: 9442534
-Tempo de execução: 61.1534 segundos
+Contagem de proteínas completas usando MPI e OpenMP:
+Arquivo ../ex2/output_mpi/transcribed_chr1_upper.subst.fa - Contagem de proteínas completas: 645786
+Arquivo ../ex2/output_mpi/transcribed_chr2_upper.subst.fa - Contagem de proteínas completas: 706145
+Arquivo ../ex2/output_mpi/transcribed_chr3_upper.subst.fa - Contagem de proteínas completas: 588661
+Arquivo ../ex2/output_mpi/transcribed_chr4_upper.subst.fa - Contagem de proteínas completas: 586457
+Arquivo ../ex2/output_mpi/transcribed_chr5_upper.subst.fa - Contagem de proteínas completas: 536790
+Arquivo ../ex2/output_mpi/transcribed_chr6_upper.subst.fa - Contagem de proteínas completas: 505200
+Arquivo ../ex2/output_mpi/transcribed_chr7_upper.subst.fa - Contagem de proteínas completas: 451781
+Arquivo ../ex2/output_mpi/transcribed_chr8_upper.subst.fa - Contagem de proteínas completas: 421662
+Arquivo ../ex2/output_mpi/transcribed_chr9_upper.subst.fa - Contagem de proteínas completas: 347290
+Arquivo ../ex2/output_mpi/transcribed_chr10_upper.subst.fa - Contagem de proteínas completas: 372845
+Arquivo ../ex2/output_mpi/transcribed_chr11_upper.subst.fa - Contagem de proteínas completas: 374941
+Arquivo ../ex2/output_mpi/transcribed_chr12_upper.subst.fa - Contagem de proteínas completas: 380794
+Arquivo ../ex2/output_mpi/transcribed_chr13_upper.subst.fa - Contagem de proteínas completas: 297013
+Arquivo ../ex2/output_mpi/transcribed_chr14_upper.subst.fa - Contagem de proteínas completas: 257014
+Arquivo ../ex2/output_mpi/transcribed_chr15_upper.subst.fa - Contagem de proteínas completas: 231965
+Arquivo ../ex2/output_mpi/transcribed_chr16_upper.subst.fa - Contagem de proteínas completas: 202974
+Arquivo ../ex2/output_mpi/transcribed_chr17_upper.subst.fa - Contagem de proteínas completas: 199025
+Arquivo ../ex2/output_mpi/transcribed_chr18_upper.subst.fa - Contagem de proteínas completas: 222046
+Arquivo ../ex2/output_mpi/transcribed_chr19_upper.subst.fa - Contagem de proteínas completas: 128589
+Arquivo ../ex2/output_mpi/transcribed_chr20_upper.subst.fa - Contagem de proteínas completas: 155499
+Arquivo ../ex2/output_mpi/transcribed_chr21_upper.subst.fa - Contagem de proteínas completas: 100979
+Arquivo ../ex2/output_mpi/transcribed_chr22_upper.subst.fa - Contagem de proteínas completas: 81520
+Contagem total de proteínas completas em todos os arquivos: 7794976
+Tempo de execução: 18.9897 segundos
