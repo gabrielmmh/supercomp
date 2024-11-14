@@ -1,6 +1,7 @@
 # Ignorar todos os arquivos .subst.fa na pasta atual e em subpastas
 *.subst.fa
 *.fa
+*.fasta
 
 # Opcional: Ignorar arquivos específicos no diretório dados
 # (substitua "dados" pelo nome do diretório correto se estiver diferente)
