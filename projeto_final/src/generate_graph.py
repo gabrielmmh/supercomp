@@ -26,4 +26,7 @@ def gerar_grafo(nome_arquivo, num_vertices=100, probabilidade_conexao=0.7):
 
 # Exemplo de uso
 if __name__ == "__main__":
-    gerar_grafo("../input/grafo.txt", num_vertices=100, probabilidade_conexao=0.7)
+    gerar_grafo("../input/grafo_10.txt", num_vertices=10, probabilidade_conexao=0.7)
+    gerar_grafo("../input/grafo_50.txt", num_vertices=50, probabilidade_conexao=0.7)
+    gerar_grafo("../input/grafo_100.txt", num_vertices=100, probabilidade_conexao=0.7)
+    gerar_grafo("../input/grafo_500.txt", num_vertices=500, probabilidade_conexao=0.7)
