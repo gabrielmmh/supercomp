@@ -3,8 +3,10 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <chrono> // Para medir o tempo de execução
 
 using namespace std;
+using namespace chrono;
 
 // Função para ler o grafo a partir do arquivo
 vector<vector<int>> LerGrafo(const string& nomeArquivo, int& numVertices) {
@@ -78,8 +80,14 @@ int main() {
     vector<int> melhorClique;
     vector<int> cliqueAtual;
 
+    // Medir o tempo de execução
+    auto inicio = high_resolution_clock::now();
+    
     // Encontrar a clique máxima
     EncontrarCliqueMaxima(grafo, cliqueAtual, melhorClique, 0, numVertices);
+
+    auto fim = high_resolution_clock::now();
+    auto duracao = duration_cast<milliseconds>(fim - inicio);
 
     // Exibir a clique máxima encontrada
     cout << "Clique Máxima Encontrada (Tamanho: " << melhorClique.size() << "): ";
@@ -87,6 +95,9 @@ int main() {
         cout << (v + 1) << " ";  // +1 para ajustar índice ao formato do arquivo
     }
     cout << endl;
+
+    // Exibir o tempo de execução
+    cout << "Tempo de execução: " << duracao.count() << " ms" << endl;
 
     return 0;
 }

@@ -1,0 +1,4 @@
+Tamanho da Clique Máxima: 15
+Tempo de execução (MPI): 12183 ms
+Execução concluída para todos os arquivos.
+

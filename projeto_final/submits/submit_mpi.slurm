@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=mpi                      # Nome do job
-#SBATCH --output=output_mpi.txt             # Arquivo de saída com ID do job
+#SBATCH --output=../outputs/output_mpi.txt             # Arquivo de saída com ID do job
 #SBATCH --nodes=2                           # Número de nós
 #SBATCH --ntasks=4                          # Número total de tarefas MPI
 #SBATCH --time=00:05:00                     # Tempo limite
