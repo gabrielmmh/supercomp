@@ -1,75 +1,25 @@
-[compute00:918304:0:918304] Caught signal 11 (Segmentation fault: address not mapped to object at address 0xa6ce3b0)
-[compute00:918304:1:918306] Caught signal 11 (Segmentation fault: address not mapped to object at address 0xa6ce3b0)
-[compute00:918305:1:918307] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x336fc968)
-[compute00:918305:0:918305] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x336fc968)
-[1731968848.860640] [compute00:918304:0]           debug.c:1294 UCX  WARN  ucs_debug_disable_signal: signal 1 was not set in ucs
-[1731968848.860647] [compute00:918305:0]           debug.c:1294 UCX  WARN  ucs_debug_disable_signal: signal 11 was not set in ucs
-[1731968848.860655] [compute00:918305:0]           debug.c:1294 UCX  WARN  ucs_debug_disable_signal: signal 7 was not set in ucs
-[1731968848.860657] [compute00:918305:1]        spinlock.c:29   UCX  WARN  ucs_recursive_spinlock_destroy() failed: busy
-==== backtrace (tid: 918306) ====
- 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x7f6e2df9ee24]
-==== backtrace (tid: 918307) ====
- 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x7f7f10edce24]
- 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2cfdf) [0x7f7f10edcfdf]
- 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d2a6) [0x7f7f10edd2a6]
- 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2cfdf) [0x7f6e2df9efdf]
- 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d2a6) [0x7f6e2df9f2a6]
- 3  /lib64/libc.so.6(+0x3e6f0) [0x7f6e2e4436f0]
- 4  ../src/openmp() [0x403502]
- 5  ../src/openmp() [0x402724]
- 6  ../src/openmp() [0x402791]
- 7  ../src/openmp() [0x402b58]
- 3  /lib64/libc.so.6(+0x3e6f0) [0x7f7f113816f0]
- 4  ../src/openmp() [0x403502]
- 5  ../src/openmp() [0x402724]
- 6  ../src/openmp() [0x402791]
- 7  ../src/openmp() [0x402b58]
- 8  /opt/ohpc/pub/compiler/gcc/13.2.0/lib64/libgomp.so.1(+0x21a3e) [0x7f7f11595a3e]
- 8  /opt/ohpc/pub/compiler/gcc/13.2.0/lib64/libgomp.so.1(+0x21a3e) [0x7f6e2e657a3e]
- 9  /lib64/libc.so.6(+0x89c02) [0x7f6e2e48ec02]
-10  /lib64/libc.so.6(+0x10ec40) [0x7f6e2e513c40]
-=================================
- 9  /lib64/libc.so.6(+0x89c02) [0x7f7f113ccc02]
-10  /lib64/libc.so.6(+0x10ec40) [0x7f7f11451c40]
-=================================
-[compute00:918303:0:918311] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x2951cd10)
-==== backtrace (tid: 918311) ====
- 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x7f245626ae24]
- 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2cfdf) [0x7f245626afdf]
- 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d2a6) [0x7f245626b2a6]
- 3  /lib64/libc.so.6(+0x3e6f0) [0x7f245670f6f0]
- 4  ../src/openmp() [0x403502]
- 5  ../src/openmp() [0x402724]
- 6  ../src/openmp() [0x402791]
- 7  ../src/openmp() [0x402791]
- 8  ../src/openmp() [0x402791]
- 9  ../src/openmp() [0x402791]
-10  ../src/openmp() [0x402791]
-11  ../src/openmp() [0x402791]
-12  ../src/openmp() [0x402791]
-13  ../src/openmp() [0x402b58]
-14  /opt/ohpc/pub/compiler/gcc/13.2.0/lib64/libgomp.so.1(+0x21a3e) [0x7f2456923a3e]
-15  /lib64/libc.so.6(+0x89c02) [0x7f245675ac02]
-16  /lib64/libc.so.6(+0x10ec40) [0x7f24567dfc40]
-=================================
-[compute01:847268:1:847268] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x255170d8)
-[compute01:847268:0:847269] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x255170d8)
-==== backtrace (tid: 847269) ====
- 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(ucs_handle_error+0x294) [0x7f5ca1c6be24]
- 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2cfdf) [0x7f5ca1c6bfdf]
- 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.15.0/lib/libucs.so.0(+0x2d2a6) [0x7f5ca1c6c2a6]
- 3  /lib64/libc.so.6(+0x3e6f0) [0x7f5ca21106f0]
- 4  ../src/openmp() [0x403502]
- 5  ../src/openmp() [0x402724]
- 6  ../src/openmp() [0x402791]
- 7  ../src/openmp() [0x402b58]
- 8  /opt/ohpc/pub/compiler/gcc/13.2.0/lib64/libgomp.so.1(+0x21a3e) [0x7f5ca2324a3e]
- 9  /lib64/libc.so.6(+0x89c02) [0x7f5ca215bc02]
-10  /lib64/libc.so.6(+0x10ec40) [0x7f5ca21e0c40]
-=================================
---------------------------------------------------------------------------
-prterun noticed that process rank 1 with PID 918304 on node compute00 exited on
-signal 11 (Segmentation fault).
---------------------------------------------------------------------------
-Execução concluída para todos os arquivos.
+Executando ../input/grafo_10.txt 4 vezes:
+Execução 1: 0 ms
+Execução 2: 0 ms
+Execução 3: 0 ms
+Execução 4: 0 ms
+Tempo médio para ../input/grafo_10.txt: 0 ms
 
+
+Executando ../input/grafo_50.txt 4 vezes:
+Execução 1: 7 ms
+Execução 2: 6 ms
+Execução 3: 6 ms
+Execução 4: 6 ms
+Tempo médio para ../input/grafo_50.txt: 6 ms
+
+
+Executando ../input/grafo_100.txt 4 vezes:
+Execução 1: 2596 ms
+Execução 2: 2600 ms
+Execução 3: 2601 ms
+Execução 4: 2607 ms
+Tempo médio para ../input/grafo_100.txt: 2601 ms
+
+
+Execução concluída.

@@ -3,8 +3,8 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include <chrono> // Para medir o tempo de execução
-#include <omp.h> // Biblioteca OpenMP
+#include <omp.h>    // Biblioteca OpenMP
+#include <chrono>   // Para medir o tempo de execução
 
 using namespace std;
 using namespace chrono;
@@ -21,15 +21,13 @@ vector<vector<int>> LerGrafo(const string& nomeArquivo, int& numVertices) {
     int numArestas;
     arquivo >> numVertices >> numArestas;
 
-    // Criar a matriz de adjacência
     vector<vector<int>> grafo(numVertices, vector<int>(numVertices, 0));
 
-    // Preencher a matriz com base nas arestas do arquivo
     for (int i = 0; i < numArestas; ++i) {
         int u, v;
         arquivo >> u >> v;
-        grafo[u - 1][v - 1] = 1;  // Grafo não direcionado
-        grafo[v - 1][u - 1] = 1;  // Simetria
+        grafo[u - 1][v - 1] = 1;
+        grafo[v - 1][u - 1] = 1;
     }
 
     arquivo.close();
@@ -43,17 +41,14 @@ void EncontrarCliqueMaxima(
     vector<int>& melhorClique,
     int verticeAtual,
     int numVertices) {
-    
-    // Verificar se a clique atual é maior que a melhor até o momento
+
     if (cliqueAtual.size() > melhorClique.size()) {
         melhorClique = cliqueAtual;
     }
 
-    // Explorar vértices restantes
     for (int i = verticeAtual; i < numVertices; ++i) {
         bool podeAdicionar = true;
 
-        // Verificar se o vértice é adjacente a todos na clique atual
         for (int v : cliqueAtual) {
             if (grafo[v][i] == 0) {
                 podeAdicionar = false;
@@ -61,33 +56,34 @@ void EncontrarCliqueMaxima(
             }
         }
 
-        // Adicionar o vértice à clique e continuar a busca
         if (podeAdicionar) {
             cliqueAtual.push_back(i);
             EncontrarCliqueMaxima(grafo, cliqueAtual, melhorClique, i + 1, numVertices);
-            cliqueAtual.pop_back();  // Backtracking
+            cliqueAtual.pop_back();
         }
     }
 }
 
-int main() {
-    string nomeArquivo = "../input/grafo.txt";
+int main(int argc, char* argv[]) {
+    if (argc != 2) {
+        cerr << "Uso: " << argv[0] << " <arquivo_grafo>" << endl;
+        return 1;
+    }
+
+    string nomeArquivo = argv[1];
     int numVertices;
 
     // Ler o grafo do arquivo
     vector<vector<int>> grafo = LerGrafo(nomeArquivo, numVertices);
 
-    // Inicializar estruturas para encontrar a clique máxima
     vector<int> melhorCliqueGlobal;
-    vector<int> cliqueAtual;
 
-    // Medir o tempo de execução
-    auto inicio = high_resolution_clock::now();
+    auto inicioExecucao = high_resolution_clock::now();
 
-    // Paralelizar a busca pela clique máxima
     #pragma omp parallel
     {
         vector<int> melhorCliqueLocal;
+        vector<int> cliqueAtual;
 
         #pragma omp for schedule(dynamic)
         for (int i = 0; i < numVertices; ++i) {
@@ -96,7 +92,6 @@ int main() {
             EncontrarCliqueMaxima(grafo, cliqueAtual, melhorCliqueLocal, i + 1, numVertices);
         }
 
-        // Atualizar a melhor clique global
         #pragma omp critical
         {
             if (melhorCliqueLocal.size() > melhorCliqueGlobal.size()) {
@@ -105,18 +100,18 @@ int main() {
         }
     }
 
-    auto fim = high_resolution_clock::now();
-    auto duracao = duration_cast<milliseconds>(fim - inicio);
+    auto fimExecucao = high_resolution_clock::now();
+    auto duracao = duration_cast<milliseconds>(fimExecucao - inicioExecucao);
 
     // Exibir a clique máxima encontrada
     cout << "Clique Máxima Encontrada (Tamanho: " << melhorCliqueGlobal.size() << "): ";
     for (int v : melhorCliqueGlobal) {
-        cout << (v + 1) << " ";  // +1 para ajustar índice ao formato do arquivo
+        cout << (v + 1) << " ";
     }
     cout << endl;
 
     // Exibir o tempo de execução
-    cout << "Tempo de execução com OpenMP: " << duracao.count() << " ms" << endl;
+    cout << "Tempo de execução (OpenMP): " << duracao.count() << " ms" << endl;
 
     return 0;
 }

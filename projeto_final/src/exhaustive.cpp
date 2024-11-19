@@ -69,8 +69,13 @@ void EncontrarCliqueMaxima(
     }
 }
 
-int main() {
-    string nomeArquivo = "../input/grafo.txt";
+int main(int argc, char* argv[]) {
+    if (argc != 2) {
+        cerr << "Uso: " << argv[0] << " <arquivo_grafo>" << endl;
+        return 1;
+    }
+
+    string nomeArquivo = argv[1];
     int numVertices;
 
     // Ler o grafo do arquivo

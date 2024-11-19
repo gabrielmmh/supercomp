@@ -64,9 +64,17 @@ void EncontrarCliqueMaxima(
     }
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char* argv[]) {
     MPI_Init(&argc, &argv);
 
+    if (argc != 2) {
+        if (MPI_COMM_WORLD == 0) {
+            cerr << "Uso: " << argv[0] << " <arquivo_grafo>" << endl;
+        }
+        MPI_Abort(MPI_COMM_WORLD, 1);
+    }
+
+    string nomeArquivo = argv[1];
     int rank, size;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
@@ -75,7 +83,6 @@ int main(int argc, char** argv) {
     vector<vector<int>> grafo;
 
     if (rank == 0) {
-        string nomeArquivo = "../input/grafo.txt";
         grafo = LerGrafo(nomeArquivo, numVertices);
     }
 

@@ -1,12 +1,33 @@
 #!/bin/bash
 #SBATCH --job-name=mpi                      # Nome do job
-#SBATCH --output=../outputs/output_mpi.txt             # Arquivo de saída com ID do job
+#SBATCH --output=../outputs/output_mpi.txt             # Arquivo de saída
 #SBATCH --nodes=2                           # Número de nós
 #SBATCH --ntasks=4                          # Número total de tarefas MPI
 #SBATCH --time=00:05:00                     # Tempo limite
 #SBATCH --mem=12000M                        # Memória total por nó
 
-# Executa o programa uma vez para processar todos os arquivos de RNA
-mpirun -np 4 ../src/mpi
+# Função para executar um grafo várias vezes e calcular o tempo médio
+executar_varias_vezes() {
+    local arquivo=$1
+    local repeticoes=4
+    local soma=0
 
-echo -e "Execução concluída para todos os arquivos.\n"
+    echo "Executando ${arquivo} ${repeticoes} vezes:"
+    for i in $(seq 1 $repeticoes); do
+        # Redireciona a saída do programa para capturar o tempo de execução
+        tempo=$(mpirun -np 4 ../src/exec/mpi $arquivo | grep "Tempo de execução (MPI)" | awk -F': ' '{print $2}' | awk '{print $1}')
+        soma=$((soma + tempo))
+        echo "Execução $i: ${tempo} ms"
+    done
+
+    media=$((soma / repeticoes))
+    echo "Tempo médio para ${arquivo}: ${media} ms"
+    echo -e "\n"
+}
+
+# Executa cada grafo
+executar_varias_vezes "../input/grafo_10.txt"
+executar_varias_vezes "../input/grafo_50.txt"
+executar_varias_vezes "../input/grafo_100.txt"
+
+echo "Execução concluída."

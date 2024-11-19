@@ -7,7 +7,28 @@
 #SBATCH --time=00:05:00                     # Tempo limite
 #SBATCH --mem=12000M                        # Memória total por nó
 
-# Executa o programa diretamente
-../src/exhaustive
+# Função para executar um grafo várias vezes e calcular o tempo médio
+executar_varias_vezes() {
+    local arquivo=$1
+    local repeticoes=4
+    local soma=0
 
-echo -e "Execução concluída.\n"
+    echo "Executando ${arquivo} ${repeticoes} vezes:"
+    for i in $(seq 1 $repeticoes); do
+        # Redireciona a saída do programa para capturar o tempo de execução
+        tempo=$(../src/exec/exhaustive $arquivo | grep "Tempo de execução" | awk '{print $4}')
+        soma=$((soma + tempo))
+        echo "Execução $i: ${tempo} ms"
+    done
+
+    media=$((soma / repeticoes))
+    echo "Tempo médio para ${arquivo}: ${media} ms"
+    echo -e "\n"
+}
+
+# Executa cada grafo
+executar_varias_vezes "../input/grafo_10.txt"
+executar_varias_vezes "../input/grafo_50.txt"
+executar_varias_vezes "../input/grafo_100.txt"
+
+echo "Execução concluída."

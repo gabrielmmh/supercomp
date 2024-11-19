@@ -1,4 +1,25 @@
-Clique Máxima Encontrada (Tamanho: 15): 12 14 16 26 32 37 38 48 57 59 61 76 88 91 100 
-Tempo de execução: 13439 ms
-Execução concluída.
+Executando ../input/grafo_10.txt 4 vezes:
+Execução 1: 0 ms
+Execução 2: 0 ms
+Execução 3: 0 ms
+Execução 4: 0 ms
+Tempo médio para ../input/grafo_10.txt: 0 ms
 
+
+Executando ../input/grafo_50.txt 4 vezes:
+Execução 1: 27 ms
+Execução 2: 27 ms
+Execução 3: 27 ms
+Execução 4: 27 ms
+Tempo médio para ../input/grafo_50.txt: 27 ms
+
+
+Executando ../input/grafo_100.txt 4 vezes:
+Execução 1: 10749 ms
+Execução 2: 10748 ms
+Execução 3: 10751 ms
+Execução 4: 10753 ms
+Tempo médio para ../input/grafo_100.txt: 10750 ms
+
+
+Execução concluída.
